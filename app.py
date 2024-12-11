@@ -37,7 +37,6 @@ def generate_certificates(file_path, output_folder, achievement):
             pdf.ln(20)
             pdf.cell(0, 10, f"Presented to: {full_name}", ln=True, align="C")
 
-            # Add achievement
             pdf.set_font("Arial", size=18)
             pdf.ln(15)
             pdf.cell(0, 10, f"For: {achievement}", ln=True, align="C")
